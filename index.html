@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="=UTF-8">
+    <meta name="viewport" content="wdth=device-width, initial-scale=1.0">
+    <title>Meu Mini Site Pessoal - Maria Luiza</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo principal">Olá, eu sou Maria Luiza!💖</h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="#">Início</a></li>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#habilidades">habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mim" class="intro-section">
+            <h2>Sobre Mim!</h2>
+            <img src="minha_foto.jfif" alt="Foto de Maria Luiza" width="200" class="foto-perfil">
+            <p>Este é o meu mini site pessoal. Aqui você encontrará um pouco sobre mim e meus interesses.</p>
+            <hr>
+            <p>Estou aprendendo <strong>HTML</strong> e <em>CSS</em> e estou animada para criar os meus projetos!</p>
+            <p class="paragrafo-destaque">Que bom te ver aqui! Meu nome é Maria, tenho 16 anos, sou aluna do Sesi-205 e esse é o meu primeiro site. Espero que goste 🎉.</p>
+            <div style="clear: both;"></div>
+        </section>
+
+        <section class="link e listas">
+            <h2>Links interessantes ✨</h2>
+            <p>Visite o meu <a href="https://www.linkedin.com/in/mruy-costa-085b48328/" target="_blank">linkedin 👀</a>.</p>
+            <p>Visite o meu <a href="https://www.instagram.com/marialu.ruy?igsh=aHR3N2NmcW0zOXQ=" target="_blank">instagram 👀</a>.</p>
+
+            <h2>Meus hobbies✨</h2>
+            <ul>
+                <li>Leitura</li>
+                <li>Viajar</li>
+                <li>Cozinhar novas receitas</li>
+                <li>Praticar exercícios físicos</li>
+            </ul>
+            <h2>Filmes/Séries favoritos 🎬</h2>
+            <ol>
+                <li>Como eu era antes de você</li>
+                <li>Alice no país das maravilhas</li>
+                <li>Gilmore girls</li>
+                <li>Arrow</li>
+            </ol>
+        </section>
+
+        <section id="habilidades">
+            <h2>Minhas Habilidades ✨</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Área</th>
+                        <th>Nível</th>
+                        <th>Interesse</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Básico/Intermediário</td>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Iniciante</td>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <td>Banco de Dados</td>
+                        <td>Iniciante</td>
+                        <td>Médio</td>
+                    </tr>
+                    <tr>
+                        <td>Back-End (Mode.js)</td>
+                        <td>Introdução</td>
+                        <td>Alto</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="interesses">
+            <h2>Meus Interesses ✨</h2>
+            <div class="interesses-container">
+                <div class="interesse-item">
+                    <h3>Tecnologia e Programação💻</h3>
+                    <p>Adoro aprender sobre novas linguagens de programação, frameworks e o futuro da tecnologia.</p>
+                </div>
+                <div class="interesse-item destaque-interesse">
+                    <h3>Animais🐱</h3>
+                    <p>Sou apaixonada em bichinhos, Gosto de conhecer diversos animais e entender como eles vivem. Tenho um gatinho chamado Lyon e amo muito ele.</p>
+                </div>
+                <div class="interesse-item">
+                    <h3>Viagens e Culturas✈</h3>
+                    <p>Explorar novos lugares, conhecer diferentes culturas e provar comidas típicas é uma paixão.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em contato comigo ✉</h2>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto" name="assunto">
+                        <option value="">Selecione um assunto</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="oportunidade">Oportunidade de Trabalho</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="6"
+                        placeholder="Digite sua mensagem aqui..."></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2025 Maria Luiza. Todos os direitos reservados.</p>
+        <p>Desenvolvido com muito ❤ e aprendizado de HTML e CSS!☆</p>
+    </footer>
+</body>
+
+</html>
